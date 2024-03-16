@@ -125,7 +125,7 @@ main {
         display: flex;
         align-items: center;
 
-        background-image: url('../images/IMG_1271.jpg');
+        background-image: url('IMG_1271.jpg');
         background-position: center;
         background-size: cover;
 
@@ -237,7 +237,7 @@ main {
 
 
             .project {
-                background-image: url('../images/pollination.jpg');
+                background-image: url('pollination.jpg');
                 border-radius: 16px;
                 overflow: hidden;
 
