@@ -183,6 +183,12 @@
             <div class="container">
                 <h2>Contact</h2>
                 <form action="https://formsubmit.co/5cecc3f81e3d0effd850a2a7fb0fb3e0" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- Disable Capthca -->
+                    <input type="hidden" name="_captcha" value="false">
+
                     <div class="form-grid">
                             <input type="text" name="name" id="name" placeholder="Name" class="form-element">
                             <input type="email" name="email" id="email" placeholder="Email" class="form-element">
